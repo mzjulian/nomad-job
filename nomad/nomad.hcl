@@ -18,3 +18,4 @@ job "example" {
       }
   }
 }
+}
