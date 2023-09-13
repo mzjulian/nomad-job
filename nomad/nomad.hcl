@@ -1,5 +1,6 @@
 job "example" {
   datacenters = ["dc1"]
+  namespace = "test"
 
   group "cache" {
     network {
