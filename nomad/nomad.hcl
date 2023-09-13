@@ -13,7 +13,7 @@ job "example" {
       driver = "docker"
 
       config {
-        image          = "redis:7"
+        image          = "redis:4"
         ports          = ["db"]
         auth_soft_fail = true
       }
